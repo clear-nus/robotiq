@@ -144,7 +144,7 @@ def publisher():
         
         pub.publish(command)
 
-        rospy.sleep(0.1)
+        rospy.sleep(0.005) #originally 0.1
                         
 
 if __name__ == '__main__':
